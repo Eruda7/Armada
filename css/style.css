@@ -936,8 +936,21 @@ footer .menu .address {
 	}
 	.header_banner .texts {
 		gap: 20px;
+		width: 100%;
 	}
 	.header_banner .container {
 		padding: 40px 0;
+		flex-direction: column;
+	}
+	.header_banner .social_medias {
+		flex-direction: row;
+		width: 200px;
+		justify-content: space-between;
+		height: 100px;
+		align-items: center;
+	}
+	.header_banner .texts a {
+		width: 90%;
+		text-align: center;
 	}
 }
