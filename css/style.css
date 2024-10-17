@@ -207,6 +207,7 @@ header nav .price {
 .header_banner {
 	background: url(../images/rectangle-70.png);
 	width: 100%;
+	height: 90vh;
 }
 .header_banner .container {
 	display: flex;
@@ -222,6 +223,7 @@ header nav .price {
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-evenly;
+	gap: 20px;
 }
 .header_banner .line {
 	display: block;
